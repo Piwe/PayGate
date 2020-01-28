@@ -1,0 +1,28 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Header/>
+    <SOAP-ENV:Body>
+        <ns2:SinglePaymentResponse xmlns:ns2="http://www.paygate.co.za/PayHOST">
+            <ns2:CardPaymentResponse>
+                <ns2:Status>
+                    <ns2:TransactionId>44186154</ns2:TransactionId>
+                    <ns2:Reference>INV101</ns2:Reference>
+                    <ns2:AcquirerCode>00</ns2:AcquirerCode>
+                    <ns2:StatusName>Completed</ns2:StatusName>
+                    <ns2:AuthCode>WF4ZJG</ns2:AuthCode>
+                    <ns2:PayRequestId>9BAB52A2-BAA7-48D4-A9D1-118F0B6092D7</ns2:PayRequestId>
+                    <ns2:TransactionStatusCode>1</ns2:TransactionStatusCode>
+                    <ns2:TransactionStatusDescription>Approved</ns2:TransactionStatusDescription>
+                    <ns2:ResultCode>990017</ns2:ResultCode>
+                    <ns2:ResultDescription>Auth Done</ns2:ResultDescription>
+                    <ns2:Currency>ZAR</ns2:Currency>
+                    <ns2:Amount>101</ns2:Amount>
+                    <ns2:RiskIndicator>AX</ns2:RiskIndicator>
+                    <ns2:PaymentType>
+                        <ns2:Method>CC</ns2:Method>
+                        <ns2:Detail>MasterCard</ns2:Detail>
+                    </ns2:PaymentType>
+                </ns2:Status>
+            </ns2:CardPaymentResponse>
+        </ns2:SinglePaymentResponse>
+    </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
